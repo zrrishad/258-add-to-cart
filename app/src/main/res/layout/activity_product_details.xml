@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+    <com.denzcoskun.imageslider.ImageSlider
+        android:id="@+id/imageSli"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        app:iss_auto_cycle="true"
+        app:iss_corner_radius="20"
+        app:iss_delay="1000"
+        app:iss_period="1000"></com.denzcoskun.imageslider.ImageSlider>
+
+
+
+
+
+
+
+    <TextView
+        android:id="@+id/edName2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="18sp"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/edPrice2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Price"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp" />
+
+
+    <TextView
+        android:id="@+id/edDes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="des"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/edRating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="reating"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp" />
+
+
+</LinearLayout>
